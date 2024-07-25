@@ -441,6 +441,7 @@ table{
 .footer-section-wrapper{
     background: rgba(255, 255, 255, 0.1);
     padding: 20px 0;
+    margin-top: 70px;
  }
 
  .footer-secion{
@@ -459,6 +460,8 @@ table{
  }
  .brand-name-seciton h2{
     margin-bottom: 30px;
+    font-size: 3rem;
+    font-weight: 800;
  }
  .brand-name-seciton p{
     color: rgba(255, 255, 255, 0.5);
@@ -467,11 +470,13 @@ table{
 
  .get-started h3{
     margin-bottom: 20px;
+    font-size: 1.5rem;
  }
  .get-started p{
     padding: 5px 0;
     color: rgba(255, 255, 255, 0.5);
- }
+    font-size: 1.2rem;
+}
 
 .line{
     max-width: 1040px;

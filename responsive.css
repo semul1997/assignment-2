@@ -36,4 +36,16 @@
         width: 100%;
         margin: 0 auto;
     }
+
+    .change-habits-card-container{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .change-habits-title-area{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .change-habits-title-area h2{
+        font-size: 2.3rem;
+    }
 }

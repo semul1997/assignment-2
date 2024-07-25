@@ -1,0 +1,39 @@
+
+
+
+@media screen and (max-width: 576px) {
+    
+    .menubar{
+        display: block;
+    }
+    .menu{
+        display: none;
+    }
+    
+    
+    .run-section{
+        flex-direction: column;
+        gap: 50px;
+        margin: 0 auto;
+        width: 95%;
+    }
+    .run-section-content{
+        width: 100%;
+    }
+    .run-section-img{
+        width: 100%;
+    }
+
+    .banner{
+        flex-direction: column;
+    }
+
+    .banner-content{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .banner-image-section{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

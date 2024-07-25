@@ -86,16 +86,38 @@
 
     .trainer-imagr-container{
         grid-template-columns: 1fr;
+        padding: 35px ;
+        gap: 35px;
     }
     .image-card{
+        width: 100%;
         margin: 0 auto;
     }
 
     .meet-section-title{
-        width: 80%;
-        margin: 0 auto;
+        width: 90%;
+        margin: 50px auto;
     }
 
     /* meet our team section ends here  */
 
+    /* footer section starts here  */
+
+    
+    .footer-secion{
+        flex-direction: column;
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+
+    .brand-name-seciton{
+        width: 100%;
+    
+     }
+    .line{
+        width: 80%;
+    
+    }
+
+    /* footer section ends here  */
 }

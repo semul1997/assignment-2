@@ -3,25 +3,12 @@
 
 @media screen and (max-width: 576px) {
     
+    /* navbar and banner section starts here  */
     .menubar{
         display: block;
     }
     .menu{
         display: none;
-    }
-    
-    
-    .run-section{
-        flex-direction: column;
-        gap: 50px;
-        margin: 0 auto;
-        width: 95%;
-    }
-    .run-section-content{
-        width: 100%;
-    }
-    .run-section-img{
-        width: 100%;
     }
 
     .banner{
@@ -36,8 +23,12 @@
         width: 100%;
         margin: 0 auto;
     }
+    
+    /* navbar and banner section ends here  */
 
-    .change-habits-card-container{
+  /* change habit section starts here  */
+
+  .change-habits-card-container{
         flex-direction: column;
         gap: 50px;
     }
@@ -48,4 +39,47 @@
     .change-habits-title-area h2{
         font-size: 2.3rem;
     }
+
+    /* change habit section ends here  */
+
+    /* run section starts here  */
+
+    .run-section{
+        flex-direction: column;
+        gap: 50px;
+        margin: 0 auto;
+        width: 95%;
+    }
+    .run-section-content{
+        width: 100%;
+    }
+    .run-section-img{
+        width: 100%;
+    }
+
+    /* run section ends here  */
+
+    /* bmi calculator section starts here  */
+
+    .bmi-calculator-title{
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .bmi-calculator-section{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .bmi-calculator-chart{
+        width: 100%;
+    }
+
+    .calculate-bmi{
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* bmi calculator section ends here  */
+
 }

@@ -281,3 +281,112 @@ body{
     margin-top: 25px;
  }
 /* run an extra mile section ends heree */
+
+
+		
+		
+/* bmi calculator section css starts */
+.bmi-calculator-title{
+    width: 520px;
+    margin: 70px auto;
+}
+
+
+.bmi-calculator-wrapper{
+    background: rgb(34, 34, 34);
+}
+.bmi-calculator-section{
+    max-width: 1040px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    gap: 150px;
+}
+
+
+.bmi-calculator-chart{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.bmi-calculator-chart h3{
+   margin-bottom: 20px;
+}
+
+table, tr, th, td{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+
+td{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+table{
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.calculate-bmi{
+    width: 65%;
+}
+.calculate-bmi h3{
+    margin-bottom: 20px;
+}
+
+.calculate-bmi p{
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.input-section{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    
+}
+.input-section input{
+    width: 48%;
+    height: 40px;
+    border-radius: 7px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+.input-section> input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    padding-left: 10px;
+}
+.sex{
+    width: 48%;
+    height: 40px;
+    border-radius: 7px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    padding-left: 10px;
+}
+
+.activity-factor{
+    width: 100%;
+    height: 40px;
+    border-radius: 7px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    padding-left: 10px;
+}
+
+.input-section button{
+    width: 180px;
+    margin-top: 20px;
+}
+
+
+/* bmi calculator section css ends  */

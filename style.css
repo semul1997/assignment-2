@@ -391,7 +391,77 @@ table{
 
 /* bmi calculator section css ends  */
 
-		
+	
+		 
+		 
+/* membership section starts here */
+.membership-section{
+    max-width: 1040px;
+    margin: 20px auto;
+
+}
+
+.membership-section-title{
+    width: 80%;
+    margin: 80px auto 60px;
+    text-align: center;
+}
+
+
+.membership-card-container{
+    /* border: 2px solid seagreen; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.membership-card{
+    width: 250px;
+    /* border: 2px solid yellowgreen; */
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+
+}
+.membership-card>h3,h2,span, button{
+    text-align: center;
+    
+}
+
+.membership-card h2{
+    color: white;
+    background-color: rgb(255, 175, 69);
+    margin: 30px 15px;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    padding: 25px 15px;
+    border-radius: 15px;
+}
+.membership-card h3{
+    font-size:1.4rem ;
+    margin: 20px;
+    
+}
+
+.membership-card button{
+    margin: 20px auto;
+    display: block;
+    
+}
+.price{
+    display: block;
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+
+}
+.price span{
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+
+
+/* membership section ends here */
+
 /* Trainer image container section css starts */
 
 .meet-section-title{

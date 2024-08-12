@@ -101,6 +101,24 @@
 
     /* meet our team section ends here  */
 
+    /* membership section starts here  */
+
+    .membership-card-container{
+        flex-direction: column;
+    }
+    .membership-card{
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .membership-section-title{
+        width: 95%;
+        margin: 80px auto 60px;
+        text-align: center;
+    }
+    
+    /* member section ends here */
+
     /* footer section starts here  */
 
     

@@ -527,11 +527,14 @@ table{
  .brand-name-seciton{
     width: 40%;
 
+
  }
  .brand-name-seciton h2{
     margin-bottom: 30px;
     font-size: 3rem;
     font-weight: 800;
+    text-align: left;
+
  }
  .brand-name-seciton p{
     color: rgba(255, 255, 255, 0.5);
